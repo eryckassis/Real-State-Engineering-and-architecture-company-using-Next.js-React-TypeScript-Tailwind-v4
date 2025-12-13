@@ -1,4 +1,3 @@
-import { ProjectCategory } from "./projects";
 import type { ImageData } from "./common";
 
 export type ProjectCategory = "residential" | "commercial" | "cultural" | "landscape";
