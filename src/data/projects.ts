@@ -43,6 +43,9 @@ export const projects: Project[] = [
     status: "completed",
     year: 2022,
     location: "Austin, Texas",
-    image: {},
+    image: {
+      src: "/featured-projects/fold-house.jpg",
+      alt: "Fold House - Angular residential design with dynamic lighting",
+    },
   },
 ];
