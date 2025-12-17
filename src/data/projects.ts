@@ -36,6 +36,8 @@ export const projects: Project[] = [
   {
     id: "emberstone-cabin",
     title: "Emberstone Cabin",
-    description: "A minimal retreat",
+    description:
+      "A minimal retreat in the forest, where timber, concrete, and glass meet. Designed to disappear into its surroundings while offering shelter and stillness.",
+    info: "",
   },
 ];
