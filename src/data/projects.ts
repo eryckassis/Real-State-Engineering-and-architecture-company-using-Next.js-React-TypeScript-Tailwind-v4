@@ -47,5 +47,6 @@ export const projects: Project[] = [
       src: "/featured-projects/fold-house.jpg",
       alt: "Fold House - Angular residential design with dynamic lighting",
     },
+    featured: true,
   },
 ];
