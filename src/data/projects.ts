@@ -50,3 +50,7 @@ export const projects: Project[] = [
     featured: true,
   },
 ];
+
+export function getFeaturedProjects(): Project[] {
+  return projects.filter((project) => project.featured);
+}
