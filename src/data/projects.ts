@@ -49,6 +49,22 @@ export const projects: Project[] = [
     },
     featured: true,
   },
+  {
+    id: "fold-house",
+    title: "Fold House",
+    description:
+      "A home defined by shifting planes and layered volumes. Light enters through angular cuts, transforming the interior throughout the day",
+    info: "Residential · Completed · 2023",
+    category: "residential",
+    status: "completed",
+    year: 2023,
+    location: "Oregon Texas",
+    image: {
+      src: "/featured-projects/fold-house.jpg",
+      alt: "Fold House - Angular residential design with dynamic lighting",
+    },
+    featured: true,
+  },
 ];
 // retorna apenas projetos marcados como featured
 export function getFeaturedProjects(): Project[] {
