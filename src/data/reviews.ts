@@ -25,5 +25,16 @@ export const reviews: Review[] = [
     quote:
       "The team brought clarity to a complex vision. What emerged was a home that feels rooted, calm, and entirely our own. A rare and grounding experience.",
   },
-  {},
+  {
+    id: "review-3",
+    clientName: "Sofia Andersson",
+    clientRole: "Architect",
+    clientCompany: "Independent",
+    clientImage: {
+      src: "/client-reviews/sofia-andersson.jpg",
+      alt: "Sofia Andersson portrait",
+    },
+    quote:
+      "As a fellow architect, I came in with high expectations. Terrene exceeded them. Their sense of proportion, light, and material is quietly masterfull.",
+  },
 ];
