@@ -38,3 +38,9 @@ export const reviews: Review[] = [
       "As a fellow architect, I came in with high expectations. Terrene exceeded them. Their sense of proportion, light, and material is quietly masterfull.",
   },
 ];
+
+// retorna review por ID.
+
+export function getReviewById(id: string): Review | undefined {
+  return reviews.find((review) => review.id === id);
+}
